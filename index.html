@@ -1,0 +1,153 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="My Digital Space，个人数字空间。">
+  <title>My Digital Space</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="#home" aria-label="My Digital Space 首页">My Digital Space</a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="打开导航菜单">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#projects">我的作品</a></li>
+        <li><a href="#blog">博客</a></li>
+        <li><a href="#growth">成长记录</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-space" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow">欢迎来到我的个人空间</p>
+        <h1>My Digital<br><span>Space.</span></h1>
+        <p class="hero-copy">你好！这里是我的个人数字空间，用来展示作品、分享想法，并记录持续成长的过程。</p>
+        <a class="button button-dark" href="#about">了解更多 <span aria-hidden="true">→</span></a>
+        <div class="hero-orbit" aria-hidden="true"><span class="orbit-dot"></span></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container about-layout">
+        <div>
+          <p class="eyebrow">About me</p>
+          <h2>关于我</h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">你好，我是<span class="placeholder">Haitao</span>。</p>
+          <p>这里可以填写一段简短的个人介绍，例如你正在关注的领域、感兴趣的主题，或你希望访客了解的内容。</p>
+          <p class="helper-text">当前为占位内容，请替换为你自己的介绍。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="explore-heading">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Explore</p>
+          <h2 id="explore-heading">探索我的空间</h2>
+          <p class="section-intro">从这里开始，看看我正在整理和分享的内容。</p>
+        </div>
+        <div class="feature-grid">
+          <a class="feature-card" href="#about">
+            <span class="feature-icon" aria-hidden="true">◎</span>
+            <span class="feature-title">关于我</span>
+            <span class="feature-description">认识我，以及我关注的事情。</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="feature-card" href="#projects">
+            <span class="feature-icon" aria-hidden="true">◇</span>
+            <span class="feature-title">我的作品</span>
+            <span class="feature-description">浏览项目、练习和创作。</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="feature-card" href="#blog">
+            <span class="feature-icon" aria-hidden="true">☰</span>
+            <span class="feature-title">博客</span>
+            <span class="feature-description">阅读笔记、想法与经验。</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="feature-card" href="#growth">
+            <span class="feature-icon" aria-hidden="true">↗</span>
+            <span class="feature-title">成长记录</span>
+            <span class="feature-description">记录学习进度与新的尝试。</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>我的作品</h2>
+          </div>
+          <p class="section-intro">这里展示你完成或正在进行的项目。</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art art-one" aria-hidden="true"><span>01</span></div>
+            <div class="project-meta"><span>项目类型</span><span>待填写</span></div>
+            <h3>[项目名称]</h3>
+            <p>在这里用一两句话介绍这个项目的目标或特色。</p>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-two" aria-hidden="true"><span>02</span></div>
+            <div class="project-meta"><span>项目类型</span><span>待填写</span></div>
+            <h3>[项目名称]</h3>
+            <p>在这里添加项目简介；没有项目时，也可以删除这张卡片。</p>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-three" aria-hidden="true"><span>03</span></div>
+            <div class="project-meta"><span>项目类型</span><span>待填写</span></div>
+            <h3>[项目名称]</h3>
+            <p>展示作品过程、成果或你从中学到的内容。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="blog">
+      <div class="container compact-section">
+        <p class="eyebrow">Writing</p>
+        <h2>博客</h2>
+        <p class="section-intro">写下你想分享的知识、灵感和日常思考。文章内容可以在这里补充。</p>
+        <a class="text-link" href="#growth">继续浏览成长记录 <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="growth">
+      <div class="container compact-section">
+        <p class="eyebrow">Progress</p>
+        <h2>成长记录</h2>
+        <p class="section-intro">在这里记录近期的学习目标、进展或值得记住的小事。</p>
+        <div class="growth-placeholder">
+          <span class="growth-mark" aria-hidden="true">✳</span>
+          <p><strong>[记录标题]</strong><br><span>添加日期和一段简短的成长记录。</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>© <span id="current-year">2026</span> My Digital Space</span>
+      <span>由好奇心与代码构建</span>
+      <a href="#home">回到顶部 ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
+
